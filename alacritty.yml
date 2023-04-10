@@ -254,7 +254,7 @@ import:
 #save_to_clipboard: false
 
 # Allow terminal applications to change Alacritty's window title.
-dynamic_title: false
+dynamic_title: true
 
 cursor:
     # Cursor style
@@ -290,7 +290,7 @@ shell:
 #
 # Directory the shell is started in. If this is unset, or `None`, the working
 # directory of the parent process will be used.
-working_directory: c:\\Users\jesse
+# working_directory: c:\\Users\jesse
 
 # WinPTY backend (Windows only)
 #
