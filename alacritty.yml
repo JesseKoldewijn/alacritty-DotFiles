@@ -1,9 +1,16 @@
 import:
+    #! Windows
     # * Select colorscheme here!
-    # ? themes\{themename}.yaml
+    # ? themes/{themename}.yaml
     - ~/AppData/Roaming/alacritty/themes/hyper.yaml
     # * Importing keybindings/mousebindings etc..
     - ~/AppData/Roaming/alacritty/keybindings.yml
+    # #! Linux/Unix
+    # # * Select colorscheme here!
+    # # ? themes/{themename}.yaml
+    # - ~/.config/alacritty/themes/hyper.yaml
+    # # * Importing keybindings/mousebindings etc..
+    # - ~/.config/alacritty/keybindings.yml
 
 env:
     # TERM variable
@@ -27,9 +34,9 @@ window:
     #
     # Specified in number of pixels.
     # If the position is not set, the window manager will handle the placement.
-    #position:
-    #  x: 0
-    #  y: 0
+    position:
+        x: 0
+        y: 0
 
     # Window padding (changes require restart)
     #
@@ -284,7 +291,7 @@ live_config_reload: true
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-    program: cmd $*
+    program: cmd
 #   args:
 #    - --login
 
