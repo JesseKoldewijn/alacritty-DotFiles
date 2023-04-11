@@ -1,7 +1,9 @@
 @echo off
 
-# Making sure path is set
-set PATH=%PATH%;
+# Making sure path is set and is persistent 
+# ? To add dir to path change following line to: 
+# * set -U PATH /some/path/bin $PATH
+set -U PATH $PATH
 
 # Commands
     # NodeJS
