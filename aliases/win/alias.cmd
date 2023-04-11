@@ -1,6 +1,5 @@
 @echo off
 
-:: Making sure path is set
 set PATH=%PATH%;
 
 :: Commands
@@ -15,10 +14,8 @@ set PATH=%PATH%;
 :: Inject clink runtime into shell
     call clink inject | find /i "Clink already loaded in process"
     if not errorlevel 1 (
-        :: clink is already running
         cls
     ) else (
-        :: clink isn't running yet
         call clink inject
         call cls
     )
