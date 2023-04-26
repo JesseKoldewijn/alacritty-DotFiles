@@ -14,7 +14,7 @@
 
 1. ### Install winget
 
--   [Download winget](https://www.microsoft.com/p/app-installer/9nblggh4nns1)\
+-   [Download winget](https://www.microsoft.com/p/app-installer/9nblggh4nns1)
 
 2. ### Install chololatey
 
