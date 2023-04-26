@@ -291,9 +291,9 @@ live_config_reload: true
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-    program: cmd
-#   args:
-#    - --login
+    program: powershell
+    args:
+        - /nologo
 
 # Startup directory
 #
