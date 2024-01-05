@@ -2,15 +2,15 @@ import:
     #! Windows
     # * Select colorscheme here!
     # ? themes/{themename}.yaml
-    - ~/AppData/Roaming/alacritty/themes/hyper.yaml
+    # - ~/AppData/Roaming/alacritty/themes/hyper.yaml
     # * Importing keybindings/mousebindings etc..
-    - ~/AppData/Roaming/alacritty/keybindings.yml
+    # - ~/AppData/Roaming/alacritty/keybindings.yml
     # #! Linux/Unix
     # # * Select colorscheme here!
     # # ? themes/{themename}.yaml
-    # - ~/.config/alacritty/themes/hyper.yaml
+    - ~/.config/alacritty/themes/hyper.yaml
     # # * Importing keybindings/mousebindings etc..
-    # - ~/.config/alacritty/keybindings.yml
+    - ~/.config/alacritty/keybindings.yml
 
 env:
     # TERM variable
@@ -291,9 +291,9 @@ live_config_reload: true
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-    program: powershell
-    args:
-        - /nologo
+    program: fish
+      # args:
+      #   - /nologo
 
 # Startup directory
 #
